@@ -1,3 +1,5 @@
+#Version 0.01
+
 try:
     import Image
 except ImportError:
