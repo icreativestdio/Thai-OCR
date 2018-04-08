@@ -4,7 +4,7 @@ except ImportError:
     from PIL import Image
 import pytesseract
 from pathlib import Path
-import os
+#import os
 import deepcut
 
 class ThaiDeepcut():
@@ -31,7 +31,7 @@ class ReadOCR():
         return self.__tpath
 
     def image_path(self):
-        return self.__ipath 
+        return self.__ipath
 
     def reader(self,read_lang):
         pytesseract.pytesseract.tesseract_cmd = self.__tpath

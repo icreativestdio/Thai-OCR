@@ -6,7 +6,7 @@ except ImportError:
     from PIL import Image
 import pytesseract
 from pathlib import Path
-import os
+# import os
 
 # Set Tesseract Executable Path here
 # Eg. 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
