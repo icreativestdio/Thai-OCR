@@ -11,7 +11,7 @@ class ThaiDeepcut():
 
     def __init__(self,sentense):
         self.__sentense = sentense
-        
+
     def sentese(self):
         return self.__sentense
 
